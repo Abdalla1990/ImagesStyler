@@ -1,0 +1,58 @@
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+    background: darken($color: #498695, $amount: 15%);
+}
+
+button {
+    cursor: pointer;
+    background: lighten($color: #498695, $amount: 20%);
+    border: none;
+    margin-bottom: 2px;
+    color: white;
+    border-bottom: solid darken($color: #498695, $amount: 10%);
+}
+
+button:disabled {
+    cursor: default;
+}
+
+p {
+    cursor: pointer;
+}
+
+.ImageStyleClassWithoutScale {
+    padding: 10px;
+    width: 350px;
+    height: 350px;
+    align-content: center;
+    border: .7px double darken($color: #498695, $amount: 30%);
+}
+
+.ImageStyleClassWithScale {
+    padding: 10px;
+    width: 450px;
+    height: 450px;
+    align-content: center;
+    border: .7px double darken($color: #498695, $amount: 30%);
+}
+
+.OpacityEffect {
+    opacity: 0.5;
+}
+
+.RotateEffect {
+    transform: rotate(45deg);
+}
+
+.TranslateEffect {
+    transform: translate(300px);
+}
+
+.RotateAndTranslateEffect {
+    transform: translate(300px) rotate(45deg);
+}

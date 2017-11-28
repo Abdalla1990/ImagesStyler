@@ -1,0 +1,79 @@
+._Rotate {
+    @extend .RotateEffect;
+    @extend .ImageStyleClassWithoutScale;
+}
+
+._Translate {
+    @extend .TranslateEffect;
+    @extend .ImageStyleClassWithoutScale;
+}
+
+._Scale {
+    @extend .ImageStyleClassWithScale;
+}
+
+._Opacity {
+    @extend .OpacityEffect;
+    @extend .ImageStyleClassWithoutScale;
+}
+
+._Rotate_Translate {
+    @extend .RotateAndTranslateEffect;
+    @extend .ImageStyleClassWithoutScale;
+}
+
+._Rotate_Scale {
+    @extend .RotateEffect;
+    @extend .ImageStyleClassWithScale;
+}
+
+._Rotate_Opacity {
+    @extend .RotateEffect;
+    @extend .OpacityEffect;
+    @extend .ImageStyleClassWithoutScale;
+}
+
+._Translate_Scale {
+    @extend .TranslateEffect;
+    @extend .ImageStyleClassWithScale;
+}
+
+._Translate_Opacity {
+    @extend .TranslateEffect;
+    @extend .OpacityEffect;
+    @extend .ImageStyleClassWithoutScale;
+}
+
+._Scale_Opacity {
+    @extend .OpacityEffect;
+    @extend .ImageStyleClassWithScale;
+}
+
+._Rotate_Translate_Scale {
+    @extend .RotateAndTranslateEffect;
+    @extend .ImageStyleClassWithScale;
+}
+
+._Rotate_Translate_Opacity {
+    @extend .RotateAndTranslateEffect;
+    @extend .OpacityEffect;
+    @extend .ImageStyleClassWithoutScale;
+}
+
+._Rotate_Scale_Opacity {
+    @extend .RotateEffect;
+    @extend .OpacityEffect;
+    @extend .ImageStyleClassWithScale;
+}
+
+._Rotate_Translate_Scale_Opacity {
+    @extend .RotateAndTranslateEffect;
+    @extend .OpacityEffect;
+    @extend .ImageStyleClassWithScale;
+}
+
+._Translate_Scale_Opacity {
+    @extend .TranslateEffect;
+    @extend .OpacityEffect;
+    @extend .ImageStyleClassWithScale;
+}

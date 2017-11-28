@@ -1,0 +1,80 @@
+.image {
+    padding: 10px;
+    width: 350px;
+    height: 350px;
+    align-content: center;
+    border: .7px double darken($color: #498695, $amount: 30%);
+}
+
+.image-container {
+    background: lighten($color: #498695, $amount: 5%);
+    display: flex; // this is flexbox , a dynamic way of calculating the width of a component 
+    justify-content: space-around;
+}
+
+.button {
+    padding: 10px;
+}
+
+.widget {
+    align-items: center;
+    background: #498695;
+    display: flex; // this is flexbox , a dynamic way of calculating the width of a component 
+    justify-content: space-between;
+    padding: 70px;
+    height: 250px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 30%; //padding: 50px;
+    align-content: center;
+    padding: 30px;
+    border-left: .4px solid darken($color: #498695, $amount: 10%);
+}
+
+.selectOption {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    padding: 30px;
+    width: 35%;
+    border-left: .4px solid darken($color: #498695, $amount: 10%);
+    align-content: center;
+    text-align: center;
+}
+
+.selectedOption {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 30%;
+    border-left: .4px solid darken($color: #498695, $amount: 10%);
+    padding: 30px;
+    align-content: center;
+    text-align: center;
+}
+
+.option {
+    padding: 1px;
+    color: white;
+    font-weight: 30px;
+    text-align: center
+}
+
+p,
+h1,
+h3 {
+    padding: 1px;
+    color: white;
+    font-weight: 30px;
+    text-align: center
+}
+
+.drag {
+    height: 400px;
+    border: 2px solid #CCC;
+    flex: 1;
+    border: 20px dotted darken($color: #498695, $amount: 10%);
+}
