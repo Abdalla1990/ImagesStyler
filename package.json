@@ -8,6 +8,7 @@
         "serve": "live-server public/",
         "build": "webpack",
         "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+        "postinstall": "webpack -p",
         "dev-server": "webpack-dev-server"
     },
     "engines": {
