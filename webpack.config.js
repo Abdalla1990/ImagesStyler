@@ -18,20 +18,10 @@ module.exports = (env) => {
                 test: /\.js$/, // any file that ends with .js
                 exclude: /node_modules/ // don't read these files 
             }, {
-                test: /\.s?css$/, // load the scss styles the S is optional , so its either scss or css 
-                use: CSSExtract.extract({
-                    use: [{
-                            loader: 'css-loader',
-                            options: { sourceMap: true }
-                        }, // use these 2 loaders when runing the code. 
-                        { loader: 'sass-loader', options: { sourceMap: true } } // use this to convert the sass to css YOU HAVE TO INSTALL SASS_LOADER AND NODE_SASS before adding this. 
-                    ]
-                })
-
-
-                // ['style-loader',// use these 2 loaders when runing the code. 
-                // 'css-loader',// use these 2 loaders when runing the code. 
-                // 'sass-loader'] // use this to convert the sass to css YOU HAVE TO INSTALL SASS_LOADER AND NODE_SASS before adding this. 
+                test:/\.s?css$/, // load the scss styles the S is optional , so its either scss or css 
+                use:['style-loader',// use these 2 loaders when runing the code. 
+                'css-loader',// use these 2 loaders when runing the code. 
+                'sass-loader'] // use this to convert the sass to css YOU HAVE TO INSTALL SASS_LOADER AND NODE_SASS before adding this. 
             }]
         },
         plugins: [
