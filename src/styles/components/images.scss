@@ -31,7 +31,7 @@
     width: 30%; //padding: 50px;
     align-content: center;
     padding: 30px;
-    border-left: .4px solid darken($color: #498695, $amount: 10%);
+    border-left: 1px solid darken($color: #498695, $amount: 10%);
 }
 
 .selectOption {
@@ -40,7 +40,7 @@
     height: 250px;
     padding: 30px;
     width: 35%;
-    border-left: .4px solid darken($color: #498695, $amount: 10%);
+    border-left: 1px solid darken($color: #498695, $amount: 10%);
     align-content: center;
     text-align: center;
 }
@@ -50,7 +50,7 @@
     flex-direction: column;
     height: 250px;
     width: 30%;
-    border-left: .4px solid darken($color: #498695, $amount: 10%);
+    border-left: 1px solid darken($color: #387987, $amount: 10%);
     padding: 30px;
     align-content: center;
     text-align: center;
